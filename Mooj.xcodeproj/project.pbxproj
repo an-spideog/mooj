@@ -7,19 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1683305226A6B6CB00C1F214 /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1683305126A6B6CB00C1F214 /* SetupView.swift */; };
+		1683305426A6B9C900C1F214 /* JSONFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1683305326A6B9C900C1F214 /* JSONFile.swift */; };
+		BF0F56552695F3230092EAE2 /* DailyMoods.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF0F56542695F3230092EAE2 /* DailyMoods.swift */; };
 		BFCBE05B2694982E009BE395 /* MoojApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBE05A2694982E009BE395 /* MoojApp.swift */; };
 		BFCBE05D2694982E009BE395 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBE05C2694982E009BE395 /* ContentView.swift */; };
 		BFCBE05F26949833009BE395 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCBE05E26949833009BE395 /* Assets.xcassets */; };
 		BFCBE06226949833009BE395 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCBE06126949833009BE395 /* Preview Assets.xcassets */; };
+		BFCBE06A2694B226009BE395 /* ReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFCBE0692694B226009BE395 /* ReportView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1683305126A6B6CB00C1F214 /* SetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		1683305326A6B9C900C1F214 /* JSONFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONFile.swift; sourceTree = "<group>"; };
+		BF0F56542695F3230092EAE2 /* DailyMoods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyMoods.swift; sourceTree = "<group>"; };
 		BFCBE0572694982E009BE395 /* Mooj.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mooj.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCBE05A2694982E009BE395 /* MoojApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoojApp.swift; sourceTree = "<group>"; };
 		BFCBE05C2694982E009BE395 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFCBE05E26949833009BE395 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFCBE06126949833009BE395 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFCBE06326949833009BE395 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCBE0692694B226009BE395 /* ReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,10 @@
 			children = (
 				BFCBE05A2694982E009BE395 /* MoojApp.swift */,
 				BFCBE05C2694982E009BE395 /* ContentView.swift */,
+				1683305126A6B6CB00C1F214 /* SetupView.swift */,
+				1683305326A6B9C900C1F214 /* JSONFile.swift */,
+				BF0F56542695F3230092EAE2 /* DailyMoods.swift */,
+				BFCBE0692694B226009BE395 /* ReportView.swift */,
 				BFCBE05E26949833009BE395 /* Assets.xcassets */,
 				BFCBE06326949833009BE395 /* Info.plist */,
 				BFCBE06026949833009BE395 /* Preview Content */,
@@ -138,8 +150,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF0F56552695F3230092EAE2 /* DailyMoods.swift in Sources */,
 				BFCBE05D2694982E009BE395 /* ContentView.swift in Sources */,
 				BFCBE05B2694982E009BE395 /* MoojApp.swift in Sources */,
+				BFCBE06A2694B226009BE395 /* ReportView.swift in Sources */,
+				1683305226A6B6CB00C1F214 /* SetupView.swift in Sources */,
+				1683305426A6B9C900C1F214 /* JSONFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
