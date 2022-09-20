@@ -106,7 +106,8 @@ struct ContentView: View {
                 }
         }
         .onAppear(perform: {
-            loadData()
+            UITabBar.appearance().barTintColor = .white // Tab colour is initally not loading in for some reason?
+            //loadData() Some issues with loadData at the moment #TODO
         })
         .sheet(isPresented: $showingSetup, onDismiss: loadData) {
             SetupView()
@@ -142,6 +143,9 @@ struct ContentView: View {
             if let decoded = try? decoder.decode(URL.self, from: undecodedURLToJSONData) {
                 self.urlToJSONData = decoded
             }
+        }
+        if self.urlToJSONData == nil {
+            // do something to replace it
         }
         if let undecodedDailyMoods = try? Data(contentsOf: self.urlToJSONData!) {
             print("loading from \(self.urlToJSONData!)")
